@@ -1,0 +1,17 @@
+{
+  "name": "tg-alert",
+  "version": "1.0.0",
+  "description": "Basic Vercel serverless API with TypeScript",
+  "scripts": {
+    "deploy": "vercel deploy",
+    "type-check": "tsc"
+  },
+  "dependencies": {
+    "@vercel/node": "^3.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0",
+    "vercel": "^32.0.0"
+  }
+}
